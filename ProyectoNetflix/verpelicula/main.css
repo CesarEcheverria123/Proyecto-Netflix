@@ -1,0 +1,33 @@
+.contenedorVideo {
+    
+    text-align: center;
+
+}
+.elVideo {
+    height: 970px;
+}
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+@media(min-width:320px) {
+    .elVideo{
+     height: 450px;
+    }
+
+}
+@media(min-width:425px) {
+    .elVideo{
+        height: 600px;
+    }
+}
+@media(min-width:1024px) {
+    .elVideo{
+        height: 670px;
+    }
+}
+@media(min-width:1440px) {
+    .elVideo{
+        height: 800px;
+    }
+}

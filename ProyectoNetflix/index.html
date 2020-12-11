@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PeliCachis</title>
+        <!--<link rel="stylesheet" href="estilos/estilos.css">-->
+        <link rel="stylesheet" href="estilos/normalize.css">
+        <link rel="stylesheet" href="estilos/main.css">
+    </head>
+    <body>
+        <main>
+            <div class="banner-inicio">
+                <div class="header">
+                    <h1 class="titulo-header">PeliCachis</h1>
+                    <input id="btnCambioLogin" onclick="btnCambio(1)" type="button" value="Iniciar sesion"
+                        class="boton-header">
+                        <input id="btnCambioRegistro" onclick="btnCambio(2)" style="display: none;" type="button" value="Registrarse"
+                        class="boton-header">
+                </div>
+                <div class="contenedor-banner-medio">
+                    <h1 class="titulo-banner-medio">
+                        Películas y series ilimitadas y mucho más.
+                    </h1>
+                    <h2 class="subtitulo-banner-medio">
+                        Disfruta donde quieras. Cancela cuando quieras.
+                    </h2>
+                    <p class="parrafo-banner-medio">
+                        ¿Quieres ver Netflix ya? Ingresa tu email para crear una
+                        cuenta o reiniciar tu membresía de Netflix.
+                    </p>
+                    <div class="registro-main" style="display: inline-grid;">
+                        <input id="username" type="email" placeholder="email" class="email-main">
+                        <input id="password" type="password" placeholder="password"  class="email-main">
+
+                        <input id="btnRegistro" onclick="insert()" type="button" value="Registrarse"
+                        class="boton-main">
+                        <input id="btnLogin" onclick="login()" style="display: none;" type="button" value="Iniciar Seccion"
+                        class="boton-main">
+                    </div>
+                </div>
+                <div class="segundo-div">
+                    <h1 class="titulo-segundo-div">
+                        Disfruta en tu TV.
+                    </h1>
+                    <h2 class="subtbitulo-segundo-div">
+                        Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV,
+                        reproductores de Blu-ray y más.
+                    </h2>
+                    <div class="imagen-div">
+                        <img src="imagenes/imagenbanner2.png" alt="imagen"
+                            class="imagen-segundo-div">
+                    </div>
+                </div>
+                <div class="tercer-div">
+                    <h1 class="titulo-tercer-div">
+                        Descarga tus series para verlas offline.
+                    </h1>
+                    <h2 class="subtitulo-tercer-div">
+                        Guarda tu contenido favorito y ten siempre algo para
+                        ver.
+                    </h2>
+                    <div  class="imagen-div">
+                        <img src="imagenes/imagenbanner3.png" alt="imagen"
+                            class="imagen-tercer-div">
+                    </div>
+                </div>
+                <div class="cuarto-div">
+                    <h1 class="titulo-cuarto-div">
+                        Disfruta donde quieras.
+                    </h1>
+                    <h2 class="subtitulo-cuarto-div">
+                        Películas y series ilimitadas en tu teléfono,
+                        tablet, computadora y TV sin costo extra.
+                    </h2>
+                    <div  class="imagen-div">
+                        <img src="imagenes/imagenbanner4.png" alt="imagen"
+                            class="imagen-cuarto-div">
+                    </div>
+                </div>
+                <div class="div-preguntas-frecuentes">
+                    <h1 class="titulo-preguntas-frecuentes">
+                        Preguntas frecuentes
+                    </h1>
+                    <div class="preguntas-frecuentes">
+                        <input type="button" value="Que es Netflix?"
+                            class="boton-preguntas">
+                        <input type="button" value="Cuanto cuesta Netflix?"
+                            class="boton-preguntas">
+                        <input type="button" value="Donde puedo ver Netflix?"
+                            class="boton-preguntas">
+                        <input type="button" value="Como cancelo?"
+                            class="boton-preguntas">
+                        <input type="button" value="Que puedo ver en Netflix?"
+                            class="boton-preguntas">
+                    </div>
+                    <h3 class="subtitulo-preguntas-frecuentes">
+                        ¿Quieres ver Netflix ya? Ingresa tu email para crear una
+                        cuenta o reiniciar tu membresía de Netflix.
+                    </h3>
+                    <div class="registro-main">
+                        <input type="text" value="Email"
+                            class="email-preguntas">
+                        <input type="button" value="COMIENZA YA>"
+                        class="boton-preguntas-frecuentes">
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <script src="./js/login.js"></script>
+    </body>
+</html>

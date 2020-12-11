@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.titulo-pelicula, .titulo-detalle {
+    color: white;
+    text-align: center;
+}
+
+@media(min-width: 320px) {
+    .imagendetalle {
+        width: 100%;
+    }
+
+    .main {
+        margin: auto;
+        width: 80%;
+    }
+    .titulo-detalle{
+        font-size: 18px;
+    }
+  
+}
+@media(min-width: 1024px){
+    .main{
+        display: flex;
+        width: 90%;
+
+    }
+    .imagendetalle{
+        margin-right: 55px;
+    }
+}

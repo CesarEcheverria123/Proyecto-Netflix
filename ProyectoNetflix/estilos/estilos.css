@@ -1,0 +1,19 @@
+*{
+        box-sizing: border-box;
+}
+*{
+    font-family: sans-serif;
+}
+h1,h2{
+    color: white;
+}
+body{
+    padding: 0px 50px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
